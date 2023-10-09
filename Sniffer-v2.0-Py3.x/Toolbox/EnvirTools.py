@@ -10,12 +10,7 @@ def CheckEnvir():
     except:
         print('  [-]Please install scapy by yourself [http://scapy.readthedocs.io/en/latest/installation.html]')
         return False
-    
-    try:
-        import scapy_http.http as http
-    except:
-        Name.append('scapy_http')
-    
+
     try:
         from termcolor import colored
     except:

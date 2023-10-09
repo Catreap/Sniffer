@@ -12,7 +12,7 @@ from Toolbox.FileTools import *
 from Toolbox.IfaceTools import *
 from scapy.all import *
 from scapy.utils import PcapWriter
-import scapy_http.http as http
+from scapy.layers import http
 
 
 class Sniffer:
